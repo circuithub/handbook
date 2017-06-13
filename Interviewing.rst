@@ -11,7 +11,7 @@ CircuitHub uses a service called Octopart_ as a source of electronic parts data.
 
 A bill of materials or BOM_ is a list of parts with corresponding prices and vendors.
 
-Given a small example BOM::: 
+Given a small example BOM:: 
 
 manufacturer, partNumber, quantity
 Microchip, MIC5219YM5-TR, 1
