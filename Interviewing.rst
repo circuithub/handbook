@@ -7,25 +7,25 @@ home problem, specified below.
 Coding Problems
 ===============
 
-CircuitHub uses a service called Octopart as a source of electronic parts. When
-a user uploads a project to CircuitHub, we use Octopart to find potentially
-matching parts for every component used in a project, which includes information
-about pricing that is used to provide an estimated quote of the cost of
-fabrication. In this problem, you'll use both the CircuitHub API along with
-Octopart's API to solve a similar problem.
+CircuitHub uses a service called Octopart_ as a source of electronic parts data.
 
-You will be given a CSV file listing parts in an electronic project. You can
-assume that every line of this CSV file can be parsed into the following data
-structure:::
+A bill of materials or BOM_ is a list of parts with corresponding prices and vendors.
 
-   data BOMLine = BOMLine { manufacturer :: String
-                          , partNumber :: String
-                          , quantity :: Int
-                          }
+Given a small example BOM::: 
 
-Given this CSV file, your challenge is to use Octopart to provide a cost
-estimate for purchasing parts for an order.
+manufacturer, partNumber, quantity
+Microchip, MIC5219YM5-TR, 1
+Bourns, CAT16-1000F4LF, 5
+Panasonic, ERA-3AED101V, 5
+Vishay Dale, TNPW0603100RBYEN, 5
+Analog Devices, ADM3202ARNZ, 5
+
+Using Haskell write a client for the Octopart API that computes the total price of the BOM 
+for various batch sizes.
 
 You are free to use any Haskell libraries that are available on Hackage. Your
 solution should demonstrate code clarity, and discuss any potential performance
 or reliability problems.
+
+.. _Octopart: https://octopart.com/api/home
+.. _BOM: https://octopart.com/bom-tool/DIGdamfs
