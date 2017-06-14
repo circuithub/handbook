@@ -15,16 +15,16 @@ for all the different parts on a user's circuit board. We then combine this pric
 to provide a total price based on the batch size a user requires. In this test, we are 
 looking to replicate a simplified version of this system.
 
-Using Haskell you should write a client for the Octopart API that can be executed thus;
+Using Haskell you should write a client for the Octopart API that can be executed::
 
-'quoteparts bom.csv 10'
+	quoteparts bom.csv 10
 
 and provides the output
 
-'23.31 USD'
+	23.31 USD
 
 The input bom.csv is a bill of materials. A bill of materials is a list of all the parts
-required for a given project. You can find the `CSV file here`__ . 
+required for a given project. You can find the `CSV file here`__. 
 
 10 is the batch size we are computing the cost for.
 
