@@ -19,7 +19,7 @@ Using Haskell you should write a client for the Octopart API that can be execute
 
 	quoteparts bom.csv 10
 
-and provides the output
+and provides the output::
 
 	23.31 USD
 
