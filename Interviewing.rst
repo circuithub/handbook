@@ -43,4 +43,4 @@ or reliability problems.
 
 .. _Octopart: https://octopart.com/api/home
 .. _here: https://octopart.com/bom-tool/DIGdamfs
-.. _CSV file here: https://github.com/circuithub/handbook/bom.csv
+.. _CSV file here: https://github.com/circuithub/handbook/blob/master/bom.csv
