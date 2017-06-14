@@ -1,9 +1,9 @@
 Thanks for taking the time to apply to CircuitHub. Our approach to assessing technical 
 ability is a short take-home test that should require no more than an evening or two. 
-Hopefully, it will provide a bit of insight into the wonderful world of electronics 
-and it's also a great opportunity to collaborate with an expert team using Haskell 
-in production. Please feel free to keep in touch as you work on the problem, the test 
-is designed to simulate a realistic collaborative working environment.
+It will provide a bit of insight into the wonderful world of electronics and it's 
+also a great opportunity to collaborate with an expert team using Haskell in production. 
+Please feel free to keep in touch as you work on the problem, the test is designed to 
+simulate a realistic collaborative working environment.
 
 
 Quoting Parts
