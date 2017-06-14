@@ -24,7 +24,13 @@ and provides the output::
 	23.31 USD
 
 The input bom.csv is a bill of materials. A bill of materials is a list of all the parts
-required for a given project. You can find the `CSV file here`_. 
+required for a given project. You can find the `CSV file here`_. Every line of the CSV
+can be parsed into the following data structure::
+
+	data BOMLine = BOMLine { manufacturer :: String
+	                       , partNumber :: String
+	                       , quantity :: Int
+	                       }
 
 10 is the batch size we are computing the cost for.
 
